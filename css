@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+header {
+    background-color: #0c142438;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nome {
+    display: inline-block;
+    background: #0c1424;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.nome:hover {
+    color: rgba(105, 101, 101, 0.562);
+}
+
+.projeto {
+    display: inline-block;
+    background: #0c1424;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+    margin-left: 1300px;
+}
+
+.projeto:hover {
+    color: rgba(105, 101, 101, 0.562);
+}
+
+.contato {
+    display: inline-block;
+    background: #0c1424;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+}
+
+.contato:hover {
+    color: rgba(105, 101, 101, 0.562);
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+.layout1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 955px;
+    background: linear-gradient(120deg, #020817 0%, #141e30 99%);
+    margin: 0;
+    padding: 0;
+}
+
+.sobre {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sobre h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.sobre li {
+    color: rgba(131, 129, 129, 0.973);
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.sobre h3 {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.projeto2 {
+    display: inline-block;
+    background: whitesmoke;
+    color: rgba(39, 37, 37, 0.603);
+    font-size: 14px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+    margin: 15px;
+}
+
+.projeto2:hover {
+    color: #0c1424;
+    
+}
+
+.contato2 {
+    display: inline-block;
+    background: #0c1424;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+}
+
+.contato2:hover {
+    color: rgba(105, 101, 101, 0.562);
+}
+
+.layout2 {
+    color: #fff;
+    min-height: 500px;
+    background-color: #020817;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1200px;
+}
+
+.layout2 h1 {
+    font-size: 60px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.layout2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        color: rgba(207, 195, 195, 0.973);
+        font-size: 32px;
+        
+}
+
+.projeto3 {
+    color: rgba(39, 37, 37, 0.603);
+    font-size: 32px;
+    border-radius: 16px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+    margin-top: 32px;
+    width: 1800px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projetos-caixas h2 {
+    font-size: 45px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    display: block;
+    color: rgba(131, 129, 129, 0.973);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.layout3 {
+    color: #fff;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+    background: linear-gradient(120deg, #020817 0%, #141e30fa 99%);
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.vamos {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: -300px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.vamos h1 {
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+.vamos h2 {
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgba(131, 129, 129, 0.973);
+    display: block;
+    margin: 2;
+}
+
+.venha {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.entre {
+    background: #020817;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0px 0px 20px;
+    text-align: center;
+}
+
+.entre h1 {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    display: block;
+    
+}
+
+.entre h2 {
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    display: block;
+    color: rgb(131, 129, 129);
+}
+
+.entre p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.whatsapp-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50px;
+  margin-bottom: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Whatsapp-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+.redes {
+    background: #020817;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.redes h1 {
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.redes h2 {
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 90px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    display: block;
+    color: rgb(131, 129, 129);
+    margin: 0;
+}
+
+
+.github-button {
+    
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c1424;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-left: 134px;
+    text-align: center;
+}
+
+.github-button:hover {
+  background-color: #444c56;
+}
+
+.github-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50px;
+}
+
+
+
+
+footer {
+    background-color: #141e30;
+    padding: 1px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgba(207, 195, 195, 0.671);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
